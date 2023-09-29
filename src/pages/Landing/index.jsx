@@ -23,36 +23,31 @@ function Landing() {
     return (
         <div className="wrapper">
             <div className="blackDiv">
-                <p>
+                <p className="textBlock">
                     <div className="typeWriter">
-                            <span className="type landingTextSmall">Get</span>{" "}
-                            <span className="type typeWriterH2">{text}</span>
+                            <span className="type landingTextSmall get">Get</span>{" "}
+                            <br className="breakAlt"/>
+                            <span className="type big tier typeWriterH2">{text}</span>
                             <span className="type landingText">
                                 <Cursor />
                             </span>
                     </div>
-                    <div className="flex inline top">
-                        <p className="big landingText">Pooling All </p>
-                    </div>
-
-                    <div className="textAlignLander">
-                        <p className="big ques landingText"> OA Questions</p>
-                        <p className="small landingTextSmall">from</p>
-                    </div>
-
-                    <div className=" inline">
-                        <p className="big tier landingText">TIER-1 Colleges</p>
-                    </div>
-
-                    <div className="textAlignLander">
-                        <p className="small bottom landingTextSmall"> across</p>
-                        <p className="big india landingText">India</p>
-                    </div>
+                        <span className="big landingText">Pooling All </span>   
+                        <br />      
+                        <span className="big ques landingText"> OA Questions</span>
+                        <span className="small landingTextSmall">from</span>
+                        <br className="break"/>
+                        <span className="big tier landingText">TIER-1 Colleges</span>
+                        <br className="break"/>
+                        <span className="small bottom landingTextSmall"> across</span>
+                        <span className="big india landingText">India</span>
+                    <div className="button1">
+                        
                     <button className="btn startBtn" onClick={() => navigator("/login")}>
-                      
                         Start Solving
                     </button>
 
+                    </div>
                 </p>
 
             </div>

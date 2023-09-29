@@ -23,9 +23,11 @@ body{
 }
 
 .typeWriterH2 {
-    position: fixed;
+    position: absolute;
     margin: 0%;
     font-size: 50px;
+    font-weight: 900;
+
 }
 .type{
     margin: 0;
@@ -51,8 +53,13 @@ body{
 
 }
 .landingText{
+    font-weight: 900;
     font-size: 50px;
     margin: 5px;
+}
+
+.breakAlt {
+    display:none
 }
 
 @media screen and (max-width: 1200px) {
@@ -64,12 +71,10 @@ body{
 
 @media screen and (max-width: 950px) {
     
-
-
     .typeWriterH2 {
-        position: fixed;
+        position: absolute;
         margin: 0%;
-        font-size: 35px;
+        font-size: 32px;
     }
 
     .landingTextSmall{
@@ -78,7 +83,7 @@ body{
     
     }
     .landingText{
-        font-size: 35px;
+        font-size: 32px;
         margin: 2px;
     }
     .wrapper {
@@ -87,5 +92,33 @@ body{
         justify-content: center;
         flex-wrap: wrap;
         align-content: center;
+    }
+    .blackDiv {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 30px;
+    }
+
+    .textBlock {
+        width: 100%;
+        margin: 25px 0;
+    }
+    .button1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .break {
+        display: none;
+    }
+    .breakAlt {
+        display:block;
+    }
+    .get {
+font-size: 30px;
+font-weight: 900;
     }
   }

@@ -55,6 +55,7 @@ body {
 @media screen and (max-width: 1200px) {
 
   .purpleDiv {
+    display: none;
    margin: 0 20px ;
   }
 }
