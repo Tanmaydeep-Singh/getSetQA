@@ -1,0 +1,28 @@
+.navbar {
+    margin: 15px;
+    padding: 0;
+    width: auto;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.name{
+    color: white;
+}
+
+.nameGr {
+    margin-left: 5px;
+    background: #dd16f2;
+    background: linear-gradient(to bottom right, #dd16f2 11%, #610bb8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.logoBlock{
+    display: flex;
+    align-items: center;
+}

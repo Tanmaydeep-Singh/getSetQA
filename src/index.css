@@ -1,13 +1,60 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* background-image: linear-gradient(
+    to right,
+    #da22ff 0%,
+    #9733ee 51%,
+    #da22ff 100%
+  ); */
+  color: white;
+}
+/* sharing the gradient used */
+.purpleDiv {
+  /* box-shadow:1px 0px 50px 0px rgb(168, 2, 190) ; */
+  /* box-shadow:1px 0px 50px 0px rgb(199, 0, 175) ; */
+
+  background: rgb(199, 0, 175);
+  background: linear-gradient(
+    180deg,
+    rgba(199, 0, 175, 1) 25%,
+    rgba(82, 4, 124, 1) 66%
+ );
+ margin: 0 130px 0 0;
+   border-radius: 50px;
+
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.startBtn {
+  background-image: linear-gradient(
+    to right,
+    #da22ff 0%,
+    #9733ee 51%,
+    #da22ff 100%
+  );
+}
+
+
+.tier {
+  background: #ae11bf;
+  background: linear-gradient(to right, #ae11bf 29%, #690cc7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ques {
+  background: #d608bb;
+  background: linear-gradient(to right, #d608bb 14%, #70075b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+  .purpleDiv {
+   margin: 0 20px ;
+  }
 }

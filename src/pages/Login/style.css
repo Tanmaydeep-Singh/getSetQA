@@ -1,0 +1,54 @@
+.purpleDiv {
+    /* box-shadow:1px 0px 50px 0px rgb(168, 2, 190) ; */
+    /* box-shadow:1px 0px 50px 0px rgb(199, 0, 175) ; */
+  
+    background: rgb(199, 0, 175);
+    background: linear-gradient(
+      180deg,
+      rgba(199, 0, 175, 1) 25%,
+      rgba(82, 4, 124, 1) 66%
+   );
+  }
+
+  .btnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    width: 245px;
+    height: 46px;
+    border-radius: 13px;
+    margin: 2px;
+  }
+
+  .google {
+    background-color: white;
+    font-weight: 600;
+  }
+  .github {
+    background-color: black;
+    font-weight: 600;
+  }
+
+  .btn-gradient {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    color: darkblue;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+
+  .google-btn-text{
+    color: black;
+  }
+
+  .git-btn-text{
+    color: white;
+  }
+
